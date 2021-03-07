@@ -1,0 +1,10 @@
+Line 54: Class Crystal.CrystalReport of control CrystalReport2 was not a loaded control class.
+Line 62: Class Crystal.CrystalReport of control CrystalReport1 was not a loaded control class.
+Line 57: The property name _ExtentX in CrystalReport2 is invalid.
+Line 58: The property name _ExtentY in CrystalReport2 is invalid.
+Line 59: The property name _Version in CrystalReport2 is invalid.
+Line 60: The property name PrintFileLinesPerPage in CrystalReport2 is invalid.
+Line 65: The property name _ExtentX in CrystalReport1 is invalid.
+Line 66: The property name _ExtentY in CrystalReport1 is invalid.
+Line 67: The property name _Version in CrystalReport1 is invalid.
+Line 68: The property name PrintFileLinesPerPage in CrystalReport1 is invalid.

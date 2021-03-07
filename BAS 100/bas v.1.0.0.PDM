@@ -1,0 +1,692 @@
+[Root]
+Most Recent Package=BAS Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\bmt project1\setup bas 100
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=
+
+[Package|Standard Setup Package 1|Files Added]
+c:\program files\waynhsoft\bas 100\database\databmt.mdb=
+c:\program files\waynhsoft\bas 100\report\buku besar.rpt=
+c:\program files\waynhsoft\bas 100\report\data nasabah.rpt=
+c:\program files\waynhsoft\bas 100\report\data transaksi jurnal.rpt=
+c:\program files\waynhsoft\bas 100\report\laporan neraca.rpt=
+c:\program files\waynhsoft\bas 100\report\laporan rugi laba.rpt=
+c:\program files\waynhsoft\bas 100\report\saldo akun.rpt=
+c:\program files\waynhsoft\bas 100\report\tabel akun.rpt=
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\program files\waynhsoft\bas 100\report\data nasabah.rpt=
+c:\program files\waynhsoft\bas 100\report\data transaksi jurnal.rpt=
+c:\program files\waynhsoft\bas 100\report\laporan rugi laba.rpt=
+c:\program files\waynhsoft\bas 100\report\tabel akun.rpt=
+c:\program files\waynhsoft\bas 100\report\saldo akun.rpt=
+e:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Documents and Settings\waynh\Desktop\bas v.1.0.0.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM32\oleaut32.dll=Yes
+C:\WINDOWS\SYSTEM32\olepro32.dll=Yes
+C:\WINDOWS\SYSTEM32\asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM32\stdole2.tlb=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSJTER35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM32\vbajet32.dll=Yes
+C:\WINDOWS\SYSTEM32\expsrv.dll=Yes
+C:\WINDOWS\SYSTEM32\MSRD2X35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSREPL35.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=Yes
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM32\DBGRID32.OCX=Yes
+C:\WINDOWS\SYSTEM32\Crystl32.OCX=Yes
+C:\WINDOWS\SYSTEM32\crpe32.dll=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=Yes
+C:\WINDOWS\SYSTEM32\RDOCURS.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\WaynhSoft\BAS 100\database\dataBMT.mdb=Yes
+C:\Program Files\WaynhSoft\BAS 100\report\BUKU BESAR.rpt=Yes
+C:\Program Files\WaynhSoft\BAS 100\report\DATA NASABAH.rpt=No
+C:\Program Files\WaynhSoft\BAS 100\report\DATA TRANSAKSI JURNAL.rpt=No
+C:\Program Files\WaynhSoft\BAS 100\report\LAPORAN NERACA.rpt=Yes
+C:\Program Files\WaynhSoft\BAS 100\report\LAPORAN RUGI LABA.rpt=No
+C:\Program Files\WaynhSoft\BAS 100\report\SALDO AKUN.rpt=No
+C:\Program Files\WaynhSoft\BAS 100\report\TABEL AKUN.rpt=No
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Documents and Settings\waynh\Desktop\bas v.1.0.0.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\stdole2.tlb=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSREPL35.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\Crystl32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\crpe32.dll=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\SYSTEM32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\RDOCURS.DLL=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\WaynhSoft\BAS 100\database\dataBMT.mdb=$(AppPath)
+C:\Program Files\WaynhSoft\BAS 100\report\BUKU BESAR.rpt=$(AppPath)
+C:\Program Files\WaynhSoft\BAS 100\report\DATA NASABAH.rpt=$(AppPath)
+C:\Program Files\WaynhSoft\BAS 100\report\DATA TRANSAKSI JURNAL.rpt=$(AppPath)
+C:\Program Files\WaynhSoft\BAS 100\report\LAPORAN NERACA.rpt=$(AppPath)
+C:\Program Files\WaynhSoft\BAS 100\report\LAPORAN RUGI LABA.rpt=$(AppPath)
+C:\Program Files\WaynhSoft\BAS 100\report\SALDO AKUN.rpt=$(AppPath)
+C:\Program Files\WaynhSoft\BAS 100\report\TABEL AKUN.rpt=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\waynh\Desktop\bas v.1.0.0.exe=No
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Program Files\WaynhSoft\BAS 100\database\dataBMT.mdb=No
+C:\Program Files\WaynhSoft\BAS 100\report\BUKU BESAR.rpt=No
+C:\Program Files\WaynhSoft\BAS 100\report\DATA NASABAH.rpt=No
+C:\Program Files\WaynhSoft\BAS 100\report\DATA TRANSAKSI JURNAL.rpt=No
+C:\Program Files\WaynhSoft\BAS 100\report\LAPORAN NERACA.rpt=No
+C:\Program Files\WaynhSoft\BAS 100\report\LAPORAN RUGI LABA.rpt=No
+C:\Program Files\WaynhSoft\BAS 100\report\SALDO AKUN.rpt=No
+C:\Program Files\WaynhSoft\BAS 100\report\TABEL AKUN.rpt=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=WaynhSoft Bas 100
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=WaynhSoft
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|WaynhSoft]
+Icon1="bas v.1.0.0.exe"
+Title1=Bas Ver.1.0.0
+StartIn1=$(AppPath)
+Key1=Icon6
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=E:\bmt project1\Package\SETUP BAS
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM32\DBGRID32.OCX=
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=
+
+[Package|Dep File 1|Files Added]
+e:\bmt project1\database\databmt.mdb=
+e:\bmt project1\report\data nasabah.rpt=
+e:\bmt project1\report\data transaksi jurnal.rpt=
+e:\bmt project1\report\laporan neraca.rpt=
+e:\bmt project1\report\laporan rugi laba.rpt=
+e:\bmt project1\report\saldo akun.rpt=
+e:\bmt project1\report\tabel akun.rpt=
+e:\bmt project1\cursor\harrow.cur=
+e:\bmt project1\pic\sunset.jpg=
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\Documents and Settings\waynh\Desktop\bas v.1.0.0.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM32\oleaut32.dll=Yes
+C:\WINDOWS\SYSTEM32\olepro32.dll=Yes
+C:\WINDOWS\SYSTEM32\asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM32\stdole2.tlb=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSJTER35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM32\vbajet32.dll=Yes
+C:\WINDOWS\SYSTEM32\expsrv.dll=Yes
+C:\WINDOWS\SYSTEM32\MSRD2X35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSREPL35.DLL=Yes
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=Yes
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM32\DBGRID32.OCX=Yes
+C:\WINDOWS\SYSTEM32\Crystl32.OCX=Yes
+C:\WINDOWS\SYSTEM32\crpe32.dll=Yes
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=Yes
+C:\WINDOWS\SYSTEM32\RDOCURS.DLL=Yes
+E:\bmt project1\database\dataBMT.mdb=Yes
+E:\bmt project1\report\DATA NASABAH.rpt=Yes
+E:\bmt project1\report\DATA TRANSAKSI JURNAL.rpt=Yes
+E:\bmt project1\report\LAPORAN NERACA.rpt=Yes
+E:\bmt project1\report\LAPORAN RUGI LABA.rpt=Yes
+E:\bmt project1\report\SALDO AKUN.rpt=Yes
+E:\bmt project1\report\TABEL AKUN.rpt=Yes
+E:\bmt project1\cursor\harrow.cur=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSDBRPTR.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+E:\bmt project1\pic\Sunset.jpg=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\msado15.dll=Yes
+C:\WINDOWS\SYSTEM32\odbc32.dll=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+C:\Documents and Settings\waynh\Desktop\bas v.1.0.0.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\Crystl32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\crpe32.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\bmt project1\database\dataBMT.mdb=$(AppPath)
+E:\bmt project1\report\DATA NASABAH.rpt=$(AppPath)
+E:\bmt project1\report\DATA TRANSAKSI JURNAL.rpt=$(AppPath)
+E:\bmt project1\report\LAPORAN NERACA.rpt=$(AppPath)
+E:\bmt project1\report\LAPORAN RUGI LABA.rpt=$(AppPath)
+E:\bmt project1\report\SALDO AKUN.rpt=$(AppPath)
+E:\bmt project1\report\TABEL AKUN.rpt=$(AppPath)
+E:\bmt project1\cursor\harrow.cur=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\SYSTEM32\MSDBRPTR.DLL=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\bmt project1\pic\Sunset.jpg=$(AppPath)
+C:\Program Files\Common Files\SYSTEM\ADO\msado15.dll=$(CommonFilesSys)\ADO
+C:\WINDOWS\SYSTEM32\odbc32.dll=$(WinSysPathSysFile)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\waynh\Desktop\bas v.1.0.0.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+E:\bmt project1\database\dataBMT.mdb=No
+E:\bmt project1\report\DATA NASABAH.rpt=No
+E:\bmt project1\report\DATA TRANSAKSI JURNAL.rpt=No
+E:\bmt project1\report\LAPORAN NERACA.rpt=No
+E:\bmt project1\report\LAPORAN RUGI LABA.rpt=No
+E:\bmt project1\report\SALDO AKUN.rpt=No
+E:\bmt project1\report\TABEL AKUN.rpt=No
+E:\bmt project1\cursor\harrow.cur=No
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+E:\bmt project1\pic\Sunset.jpg=No
+
+[Package|Dep File 1|Distribution]
+Type=single
+Size=
+Title=bas100
+
+[Package|Dep File 1|IconGroups]
+Group0=BAS 100
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Dep File 1|BAS 100]
+Icon1="bas v.1.0.0.exe"
+Title1=BAS 100
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 1|DepFile]
+DepCabFile=bas v.1.0.0.CAB
+DepCabRun=bas v.1.0.0.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=E:\bmt project1\Package\SETUP BAS
+ProjectFolder=E:\bmt project1
+ServerSideCab=
+File1=E:\bmt project1\Package\SETUP BAS\bas v.1.0.0.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\bmt project1\Package (2)
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=
+
+[Package|Standard Setup Package 2|Files Added]
+C:\Program Files\WaynhSoft\BAS 100\database\dataBMT.mdb=
+C:\Program Files\WaynhSoft\BAS 100\report\LAPORAN NERACA.rpt=
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+C:\Documents and Settings\waynh\Desktop\bas v.1.0.0.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM32\oleaut32.dll=Yes
+C:\WINDOWS\SYSTEM32\olepro32.dll=Yes
+C:\WINDOWS\SYSTEM32\asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM32\stdole2.tlb=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSJTER35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM32\vbajet32.dll=Yes
+C:\WINDOWS\SYSTEM32\expsrv.dll=Yes
+C:\WINDOWS\SYSTEM32\MSRD2X35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSREPL35.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=Yes
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM32\DBGRID32.OCX=Yes
+C:\WINDOWS\SYSTEM32\Crystl32.OCX=Yes
+C:\WINDOWS\SYSTEM32\crpe32.dll=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=Yes
+C:\WINDOWS\SYSTEM32\RDOCURS.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\WaynhSoft\BAS 100\database\dataBMT.mdb=Yes
+C:\Program Files\WaynhSoft\BAS 100\report\LAPORAN NERACA.rpt=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+C:\Documents and Settings\waynh\Desktop\bas v.1.0.0.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\stdole2.tlb=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSREPL35.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\Crystl32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\crpe32.dll=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\SYSTEM32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\RDOCURS.DLL=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\WaynhSoft\BAS 100\database\dataBMT.mdb=$(AppPath)
+C:\Program Files\WaynhSoft\BAS 100\report\LAPORAN NERACA.rpt=$(AppPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\waynh\Desktop\bas v.1.0.0.exe=No
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Program Files\WaynhSoft\BAS 100\database\dataBMT.mdb=No
+C:\Program Files\WaynhSoft\BAS 100\report\LAPORAN NERACA.rpt=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=Bas100
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=WaynhSoft
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|WaynhSoft]
+Icon1="bas v.1.0.0.exe"
+Title1=Bas100
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|BAS Setup Package 1|BAS 100]
+Icon1="bas v.1.0.0.exe"
+Title1=BAS 100
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|BAS Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\bmt project1\Package\SETUP BAS
+
+[Package|BAS Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|BAS Setup Package 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|BAS Setup Package 1|Files Found]
+
+[Package|BAS Setup Package 1|Files Released]
+
+[Package|BAS Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM32\DBGRID32.OCX=
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=
+C:\WINDOWS\Crystal\crxf_pdf.dll=
+C:\WINDOWS\Crystal\crxf_rtf.dll=
+C:\WINDOWS\Crystal\Crxlat32.dll=
+C:\WINDOWS\Crystal\p2bbtrv.dll=
+C:\WINDOWS\Crystal\p2bxbse.dll=
+C:\WINDOWS\Crystal\p2ctbtrv.dll=
+C:\WINDOWS\Crystal\p2ixbse.dll=
+C:\WINDOWS\Crystal\P2ldb2.dll=
+C:\WINDOWS\SYSTEM32\msderun.dll=
+
+[Package|BAS Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=
+C:\WINDOWS\SYSTEM32\msdbrptr.dll=
+C:\WINDOWS\SYSTEM32\msbind.dll=
+
+[Package|BAS Setup Package 1|Files Added]
+e:\bmt project1\database\databmt.mdb=
+e:\bmt project1\report\data nasabah.rpt=
+e:\bmt project1\report\data transaksi jurnal.rpt=
+e:\bmt project1\report\laporan neraca.rpt=
+e:\bmt project1\report\laporan rugi laba.rpt=
+e:\bmt project1\report\saldo akun.rpt=
+e:\bmt project1\report\tabel akun.rpt=
+e:\bmt project1\cursor\harrow.cur=
+e:\bmt project1\pic\sunset.jpg=
+c:\windows\crystal\crxf_pdf.dll=
+c:\windows\crystal\crxf_rtf.dll=
+c:\windows\crystal\crxlat32.dll=
+c:\windows\crystal\p2bbtrv.dll=
+c:\windows\crystal\p2bxbse.dll=
+c:\windows\crystal\p2ctbtrv.dll=
+c:\windows\crystal\p2ixbse.dll=
+c:\windows\crystal\p2ldb2.dll=
+E:\bmt project1\BAS 100\report\BUKU BESAR.rpt=
+E:\bmt project1\BAS 100\report\LAPORAN NERACA2.rpt=
+
+[Package|BAS Setup Package 1|Files Removed]
+e:\bmt project1\report\laporan neraca.rpt=
+
+[Package|BAS Setup Package 1|Files In Project]
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM32\oleaut32.dll=Yes
+C:\WINDOWS\SYSTEM32\olepro32.dll=Yes
+C:\WINDOWS\SYSTEM32\asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM32\stdole2.tlb=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSJET35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSJTER35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSJINT35.DLL=Yes
+C:\WINDOWS\SYSTEM32\vbajet32.dll=Yes
+C:\WINDOWS\SYSTEM32\expsrv.dll=Yes
+C:\WINDOWS\SYSTEM32\MSRD2X35.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSREPL35.DLL=Yes
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=Yes
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM32\DBGRID32.OCX=Yes
+C:\WINDOWS\SYSTEM32\Crystl32.OCX=Yes
+C:\WINDOWS\SYSTEM32\crpe32.dll=Yes
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=Yes
+C:\WINDOWS\SYSTEM32\RDOCURS.DLL=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+E:\bmt project1\database\dataBMT.mdb=Yes
+E:\bmt project1\report\DATA NASABAH.rpt=Yes
+E:\bmt project1\report\DATA TRANSAKSI JURNAL.rpt=Yes
+E:\bmt project1\report\LAPORAN NERACA.rpt=No
+E:\bmt project1\report\LAPORAN RUGI LABA.rpt=Yes
+E:\bmt project1\report\SALDO AKUN.rpt=Yes
+E:\bmt project1\report\TABEL AKUN.rpt=Yes
+E:\bmt project1\cursor\harrow.cur=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSDBRPTR.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\bmt project1\pic\Sunset.jpg=Yes
+C:\WINDOWS\Crystal\crxf_pdf.dll=Yes
+C:\WINDOWS\Crystal\crxf_rtf.dll=Yes
+C:\WINDOWS\Crystal\Crxlat32.dll=Yes
+C:\WINDOWS\Crystal\p2bbtrv.dll=Yes
+C:\WINDOWS\Crystal\p2bxbse.dll=Yes
+C:\WINDOWS\Crystal\p2ctbtrv.dll=Yes
+C:\WINDOWS\Crystal\p2ixbse.dll=Yes
+C:\WINDOWS\Crystal\P2ldb2.dll=Yes
+E:\bmt project1\bas v.1.0.0.exe=Yes
+C:\WINDOWS\SYSTEM32\msderun.dll=Yes
+E:\bmt project1\BAS 100\report\BUKU BESAR.rpt=Yes
+E:\bmt project1\BAS 100\report\LAPORAN NERACA2.rpt=Yes
+
+[Package|BAS Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|BAS Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|BAS Setup Package 1|Install Locations]
+C:\Documents and Settings\waynh\Desktop\bas v.1.0.0.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\SYSTEM32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Common Files\SYSTEM\ADO\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\Crystl32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\crpe32.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\bmt project1\database\dataBMT.mdb=$(AppPath)
+E:\bmt project1\report\DATA NASABAH.rpt=$(AppPath)
+E:\bmt project1\report\DATA TRANSAKSI JURNAL.rpt=$(AppPath)
+E:\bmt project1\report\LAPORAN NERACA.rpt=$(AppPath)
+E:\bmt project1\report\LAPORAN RUGI LABA.rpt=$(AppPath)
+E:\bmt project1\report\SALDO AKUN.rpt=$(AppPath)
+E:\bmt project1\report\TABEL AKUN.rpt=$(AppPath)
+E:\bmt project1\cursor\harrow.cur=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\SYSTEM32\MSDBRPTR.DLL=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\bmt project1\pic\Sunset.jpg=$(AppPath)
+C:\WINDOWS\Crystal\crxf_pdf.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\crxf_rtf.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\Crxlat32.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2bbtrv.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2bxbse.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2ctbtrv.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\p2ixbse.dll=$(WinSysPath)
+C:\WINDOWS\Crystal\P2ldb2.dll=$(WinSysPath)
+E:\bmt project1\bas v.1.0.0.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msderun.dll=$(WinSysPath)
+E:\bmt project1\BAS 100\report\BUKU BESAR.rpt=$(AppPath)
+E:\bmt project1\BAS 100\report\LAPORAN NERACA2.rpt=$(AppPath)
+
+[Package|BAS Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\waynh\Desktop\bas v.1.0.0.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+E:\bmt project1\database\dataBMT.mdb=No
+E:\bmt project1\report\DATA NASABAH.rpt=No
+E:\bmt project1\report\DATA TRANSAKSI JURNAL.rpt=No
+E:\bmt project1\report\LAPORAN NERACA.rpt=No
+E:\bmt project1\report\LAPORAN RUGI LABA.rpt=No
+E:\bmt project1\report\SALDO AKUN.rpt=No
+E:\bmt project1\report\TABEL AKUN.rpt=No
+E:\bmt project1\cursor\harrow.cur=No
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+E:\bmt project1\pic\Sunset.jpg=No
+E:\bmt project1\bas v.1.0.0.exe=No
+E:\bmt project1\BAS 100\report\BUKU BESAR.rpt=No
+E:\bmt project1\BAS 100\report\LAPORAN NERACA2.rpt=No
+
+[Package|BAS Setup Package 1|Distribution]
+Type=single
+Size=
+Title=bas100
+
+[Package|BAS Setup Package 1|IconGroups]
+Group0=WaynhSoft
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|BAS Setup Package 1|WaynhSoft]
+Icon1="bas v.1.0.0.exe"
+Title1=BAS 100
+StartIn1=$(AppPath)
+Key1=Icon1

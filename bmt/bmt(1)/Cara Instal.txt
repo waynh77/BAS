@@ -1,0 +1,10 @@
+1. Install Program Setup.exe
+2. Install program CR 8 runtime
+3. Set ODBC di COntrol Panel, Administrative tools. Nanti pilih driver ke microsft access 
+   nama : db_bmt
+   database select : C:\Program Files\BMT V 2\dataBMT.mdb
+
+
+Ketika program muncul
+username : admin
+password : 112233
